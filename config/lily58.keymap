@@ -57,11 +57,11 @@
             //                     |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&kp K_VOLUME_DOWN  &kp K_VOLUME_UP     &kp K_PREVIOUS  &kp K_PLAY_PAUSE  &kp K_NEXT       &kp K_MUTE                                  &kp K_MUTE      &kp K_PREV      &kp K_PLAY_PAUSE  &kp K_NEXT       &kp C_VOL_DN  &kp C_VOLUME_UP
-&trans             &kp HOME            &kp LC(LEFT)    &kp UP_ARROW      &kp LC(RIGHT)    &kp PG_UP                                   &msc SCRL_UP    &kp PAGE_UP     &kp UP_ARROW      &kp HOME         &kp LG(F2)    &trans
-&trans             &kp END             &kp LEFT_ARROW  &kp DOWN_ARROW    &kp RIGHT_ARROW  &kp PAGE_DOWN                               &msc SCRL_DOWN  &kp LEFT_ARROW  &kp DOWN_ARROW    &kp RIGHT_ARROW  &kp LG(F1)    &trans
-&trans             &kp LA(LEFT_ARROW)  &kp LA(RIGHT)   &kp LC(LS(TAB))   &kp LC(TAB)      &kp LG(LS(TAB))  &kp LG(TAB)    &kp ESCAPE  &kp TAB         &kp PAGE_DOWN   &mkp RCLK         &kp END          &kp LG(F3)    &trans
-                                                       &trans            &trans           &trans           &trans         &trans      &trans          &trans          &trans
+&trans  &kp K_VOLUME_UP     &kp K_PREVIOUS  &kp K_PLAY_PAUSE  &kp K_NEXT       &kp K_MUTE                                  &kp K_MUTE      &kp K_PREV      &kp K_PLAY_PAUSE  &kp K_NEXT       &kp K_MUTE         &trans
+&trans  &kp HOME            &kp LC(LEFT)    &kp UP_ARROW      &kp LC(RIGHT)    &kp PG_UP                                   &msc SCRL_UP    &kp PAGE_UP     &kp UP_ARROW      &kp HOME         &kp C_VOL_UP       &trans
+&trans  &kp END             &kp LEFT_ARROW  &kp DOWN_ARROW    &kp RIGHT_ARROW  &kp PAGE_DOWN                               &msc SCRL_DOWN  &kp LEFT_ARROW  &kp DOWN_ARROW    &kp RIGHT_ARROW  &kp C_VOLUME_DOWN  &trans
+&trans  &kp LA(LEFT_ARROW)  &kp LA(RIGHT)   &kp LC(LS(TAB))   &kp LC(TAB)      &kp LG(LS(TAB))  &kp LG(TAB)    &kp ESCAPE  &kp TAB         &kp PAGE_DOWN   &mkp RCLK         &kp END          &kp LG(F3)         &trans
+                                            &trans            &trans           &trans           &trans         &trans      &trans          &trans          &trans
             >;
         };
 
